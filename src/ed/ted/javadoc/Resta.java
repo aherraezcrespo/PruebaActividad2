@@ -53,6 +53,21 @@ public class Resta {
 		return resta;
 	}
 	
+	
+	/**
+	 * Resta de tres numeros enteros 
+	 * @param x numero entero
+	 * @param y numero entero
+	 * @param z numero entero
+	 * @return resta de X,Y y Z
+	 */
+	
+	public int restaTresEnteros(int x, int y, int z) {
+		int resta = x-y-z;
+		
+		return resta;
+	}
+	
 	/**
 	 * Resta con valor acumulado 
 	 * @param X numero entero
@@ -61,8 +76,9 @@ public class Resta {
 	
 	public void restaValorAcumulado(int x) {
 		x--;
-		
 	}
+	
+	
 	
 	
 
