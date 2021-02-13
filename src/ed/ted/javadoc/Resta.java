@@ -3,7 +3,7 @@ package ed.ted.javadoc;
 /**
  * Esta clase reune los metodos necesarios para actuar como la resta de una calculadora
  * @author Alejandro
- * @version 1.0
+ * @version 2.0
  * @since 29/01/2021
  *
  */
