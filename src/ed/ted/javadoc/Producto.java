@@ -5,7 +5,7 @@ package ed.ted.javadoc;
  * de una calculadora
  * 
  * @author Andrés
- * @version 2.0
+ * @version 2.3
  * @since 06/02/2021
  */
 public class Producto {
