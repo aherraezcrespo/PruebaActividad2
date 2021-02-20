@@ -25,7 +25,7 @@ public class Producto {
 	
 	
 	/**
-	 * Caso especial: si intentamos multiplicar por la raiz de un número negativo
+	 * Caso especial: si intentamos multiplicar por la raiz de un número negativo.
 	 * 
 	 * 
 	 * 
