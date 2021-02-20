@@ -5,7 +5,7 @@ package ed.ted.javadoc;
  * una calculadora
  * 
  * @author Irene
- * @version 2.0
+ * @version 2.1
  * @since 07/02/2021
  */
 public class Cociente {
