@@ -12,6 +12,9 @@ public class Resta {
 	
 	/**
 	 * Resta de dos numeros reales
+	 * 
+	 * Caso especial: si los parametros introducidos en el metodo no son de tipo Double (letra, caracter especial, etc...)
+	 * 
 	 * @param X numero real
 	 * @param Y numero real 
 	 * @return resta de X e Y
