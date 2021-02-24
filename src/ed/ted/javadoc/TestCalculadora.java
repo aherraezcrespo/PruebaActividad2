@@ -24,7 +24,7 @@ public class TestCalculadora {
 		System.out.println("El resultado de la operación es: "
 				+ pruebaProducto.MultiplicacionEnteros(2, 3));
 		
-		// TEST COCIENTEe
+		//  TEST COCIENTE
 		
 				//Probamos metodo cocienteDosEnteros
 				
