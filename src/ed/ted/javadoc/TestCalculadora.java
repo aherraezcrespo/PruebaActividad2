@@ -11,7 +11,7 @@ public class TestCalculadora {
 		Resta pruebaResta = new Resta();
 
 		System.out.println("El resultado para los parametros introducidos es: " 
-									+ pruebaResta.restaTresEnteros(10, 7, 2));
+							+ pruebaResta.restaTresEnteros(10, 7, 2));
 		
 		
 		
@@ -22,16 +22,18 @@ public class TestCalculadora {
 		Producto pruebaProducto = new Producto();
 		
 		System.out.println("El resultado de la operación es: "
-				+ pruebaProducto.MultiplicacionEnteros(2, 3));
+				           + pruebaProducto.MultiplicacionEnteros(2, 3));
+		
+		
 		
 		//  TEST COCIENTE
 		
-				//Probamos metodo cocienteDosEnteros
+		//Probamos metodo cocienteDosEnteros
 				
-				Cociente pruebaCociente = new Cociente();
+		Cociente pruebaCociente = new Cociente();
 				
-				System.out.println("El resutado para los parametros introducidos es:"
-						+ 		      + pruebaCociente.cocienteEnteros(10, 2));
+		System.out.println("El resutado para los parametros introducidos es: "
+						   + pruebaCociente.cocienteEnteros(10, 2));
 		
 		}
 		
