@@ -24,6 +24,8 @@ public class Cociente {
 	}
 
 	/**
+	 * Caso especial: si el parametro B es igual a 0, la calculadora dara error y no representara el resultado correcto
+	 * 
 	 * Cociente de dos números enteros
 	 * 
 	 * @param A número entero
@@ -36,6 +38,8 @@ public class Cociente {
 	}
 
 	/**
+	 * Caso especial: si el número introducido como parametro A es igual al valor 0, dará error
+	 * 
 	 * Inverso de un número real
 	 * 
 	 * @param A número real
