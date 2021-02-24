@@ -14,7 +14,23 @@ public class TestCalculadora {
 									+ pruebaResta.restaTresEnteros(10, 7, 2));
 		
 		
+		
+		// TEST PRODUCTO
+		
+		// Usamos el metodo MultiplicacionEnteros
+		
+		Producto pruebaProducto = new Producto();
+		
+		System.out.println("El resultado de la operación es: "
+				+ pruebaProducto.MultiplicacionEnteros(2, 3));
+		
+		
+		
+		}
+		
+		
+		
 
 	}
 
-}
+
