@@ -26,11 +26,11 @@ public class TestCalculadora {
 		
 		//  TEST COCIENTE
 		
-				//Probamos metodo cocienteDosEnteros
+		//Probamos metodo cocienteDosEnteros
 				
-				Cociente pruebaCociente = new Cociente();
+	    Cociente pruebaCociente = new Cociente();
 				
-				System.out.println("El resutado para los parametros introducidos es:"
+		System.out.println("El resutado para los parametros introducidos es:"
 						+ 		      + pruebaCociente.cocienteEnteros(10, 2));
 		
 		}
