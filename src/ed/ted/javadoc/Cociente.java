@@ -28,6 +28,9 @@ public class Cociente {
 	 * 
 	 * Cociente de dos números enteros
 	 * 
+	 * Caso especial: si el parametro B es igual a 0, la calculadora dara error y no representara el resultado
+	 * correcto
+	 * 
 	 * @param A número entero
 	 * @param B número entero
 	 * @return cociente de A y B
@@ -41,6 +44,8 @@ public class Cociente {
 	 * Caso especial: si el numero introducido como parametro A es igual al valor 0, dara error
 	 * 
 	 * Inverso de un número real
+	 * 
+	 * Caso especial: si el numero introducido como parametro A es igual al valor 0, dara error
 	 * 
 	 * @param A número real
 	 * @return cociente de 1 y A
