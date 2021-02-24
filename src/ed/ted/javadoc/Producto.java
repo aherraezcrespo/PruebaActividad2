@@ -21,6 +21,13 @@ public class Producto {
 		double multiplicacion = A * B;
 		return multiplicacion;
 	}
+	
+	
+	
+	/**
+	 * Caso especial: si intentamos multiplicar por la raiz de un número negativo. 
+	 * La raíz de un número negativo no es un número real, por lo que daría error la calculadora.
+	 * /
 
 	/**
 	 * Multiplicación de dos números enteros

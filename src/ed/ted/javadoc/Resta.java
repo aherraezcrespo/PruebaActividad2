@@ -12,6 +12,10 @@ public class Resta {
 	
 	/**
 	 * Resta de dos numeros reales
+	 * 
+	 * Caso especial: si los parametros introducidos en el metodo no son de tipo Double (letra, caracter especial, NaN, etc...)
+	 * dara un error
+	 * 
 	 * @param X numero real
 	 * @param Y numero real 
 	 * @return resta de X e Y
@@ -41,6 +45,10 @@ public class Resta {
 	
 	/**
 	 * Resta de tres numeros reales 
+	 * 
+	 * Caso especial: si los parametros introducidos en el metodo no son de tipo Double (letra, caracter especial, NaN, etc...)
+	 * dara un error
+	 * 
 	 * @param X numero real
 	 * @param Y numero real
 	 * @param Z numero real
@@ -56,6 +64,10 @@ public class Resta {
 	
 	/**
 	 * Resta de tres numeros enteros 
+	 * 
+	 * Caso especial: Si los parametros introducidos no son enteros el resultado se redondeara a un entero y no sera 
+	 * exacto. 
+	 * 
 	 * @param x numero entero
 	 * @param y numero entero
 	 * @param z numero entero
@@ -70,6 +82,9 @@ public class Resta {
 	
 	/**
 	 * Resta con valor acumulado 
+	 *
+	 * Caso especial: Si el numero introducido es NaN no nos dejara ejecutar el metodo. 
+	 * 
 	 * @param X numero entero
 	 * @return no devuelve nada, la clase guarda el valor acumulado
 	 */
@@ -77,6 +92,8 @@ public class Resta {
 	public void restaValorAcumulado(int x) {
 		x--;
 	}
+	
+	
 	
 	
 	
