@@ -24,7 +24,14 @@ public class TestCalculadora {
 		System.out.println("El resultado de la operación es: "
 				+ pruebaProducto.MultiplicacionEnteros(2, 3));
 		
+		// TEST COCIENTEe
 		
+				//Probamos metodo cocienteDosEnteros
+				
+				Cociente pruebaCociente = new Cociente();
+				
+				System.out.println("El resutado para los parametros introducidos es:"
+						+ 		      + pruebaCociente.cocienteEnteros(10, 2));
 		
 		}
 		
