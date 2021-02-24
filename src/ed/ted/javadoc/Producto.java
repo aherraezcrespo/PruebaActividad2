@@ -10,7 +10,12 @@ package ed.ted.javadoc;
  */
 public class Producto {
 	
+
 	/**
+	 ** Caso especial: si intentamos multiplicar por la raiz de un número negativo. 
+	 * La raíz de un número negativo no es un número real, por lo que daría error la calculadora.
+	 * En la calculadora se podria leer: "SYNTAX ERROR"
+	 * 
 	 * Multiplicación de dos números reales
 	 * 
 	 * @param A número real
@@ -25,12 +30,9 @@ public class Producto {
 	
 	
 	/**
-	 * Caso especial: si intentamos multiplicar por la raiz de un número negativo. 
-	 * La raíz de un número negativo no es un número real, por lo que daría error la calculadora.
-	 * La calculadora 
-	 * /
-
-	/**
+	 * * Caso especial: si multiplicamos dos numeros con decimales, no funcionaria
+	 * y en la calculadora no habria ningun resultado.
+	 * 
 	 * Multiplicación de dos números enteros
 	 * 
 	 * @param A número entero
@@ -42,7 +44,14 @@ public class Producto {
 		return multiplicacion;
 	}
 
+	
+		
+	
 	/**
+	 * 
+	 * Caso especial: si en este producto intentamos multiplicar por "i"
+	 * nos daría error al no ser numero real.
+	 *
 	 * Multiplicación de tres números reales
 	 * 
 	 * @param A número real
