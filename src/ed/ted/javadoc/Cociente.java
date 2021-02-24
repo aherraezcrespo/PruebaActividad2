@@ -38,7 +38,7 @@ public class Cociente {
 	}
 
 	/**
-	 * Caso especial: si el número introducido como parametro A es igual al valor 0, dara error
+	 * Caso especial: si el numero introducido como parametro A es igual al valor 0, dara error
 	 * 
 	 * Inverso de un número real
 	 * 
