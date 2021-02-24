@@ -82,8 +82,8 @@ public class Resta {
 	
 	/**
 	 * Resta con valor acumulado 
-	 * 
-	 * 
+	 *
+	 * Caso especial: Si el numero introducido es NaN no nos dejara ejecutar el metodo. 
 	 * 
 	 * @param X numero entero
 	 * @return no devuelve nada, la clase guarda el valor acumulado
