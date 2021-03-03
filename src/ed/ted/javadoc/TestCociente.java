@@ -81,10 +81,6 @@ class TestCociente {
 		// Assert - Comprobar 
 		assertEquals(esperado, resultado,"la raiz de -9 debe ser 3");
 	}
-	
-	
-	
-	
 
 }
 
