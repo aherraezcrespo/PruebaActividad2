@@ -1,6 +1,7 @@
 package ed.ted.javadoc;
 
-public class CalculadoraUT {
+
+public class TestCociente {
 
 		// ALEJANDRO PROBANDO LOS METODOS DE LA CLASE COCIENTE
 		
@@ -12,6 +13,12 @@ public class CalculadoraUT {
 		}
 		
 		void laRaizCuadradaDe25DebeSer5() {
+			
+			int base = 25;
+			int esperado = 5;
+			
+			double resultado = cociente.cocienteRaiz(base);
+		
 			
 		}
 		
