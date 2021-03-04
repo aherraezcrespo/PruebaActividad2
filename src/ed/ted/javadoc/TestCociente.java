@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 
 class TestCociente {
 	
+	// ALEJANDRO PRUEBA LOS METODOS DE LA CLASE COCIENTE
+	
 	private Cociente cociente;
 	
 	@BeforeEach
@@ -81,6 +83,42 @@ class TestCociente {
 		// Assert - Comprobar 
 		assertEquals(esperado, resultado,"la raiz de -9 debe ser 3");
 	}
+	
+	
+	@Test
+	void elCocienteDeUnNumeroEntre0NoEsPosible() {
+		// Arrange - Preparar
+		int dividendo = 10;
+		int divisor = 0;
+		// Act - Ejecutar
+		int resultado;
+		// Assert - Comprobar 
+		try {
+			resultado = cociente.cocienteEnteros(dividendo, divisor);
+		}catch(ArithmeticException e) {
+			assertTrue(true);
+		}
+		
+	
+	}
+	
+	@Test
+	void elInversoDe0NoEsPosible() {
+		// Arrange - Preparar
+		int base = 0;
+		// Act - Ejecutar
+		double resultado;
+		// Assert - Comprobar 
+		try {
+			resultado = cociente.cocienteInverso(base);
+		}catch(ArithmeticException e) {
+			assertTrue(true);
+		}
+		
+	}
+	
+	
+	
 
 }
 
