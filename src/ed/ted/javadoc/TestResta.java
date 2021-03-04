@@ -27,7 +27,7 @@ private Resta resta;
 		double substraendo = 5;
 		double diferencia = 5;
 		// Act - Ejecutar 
-		double resultado = Resta.restaReales (minuendo, substraendo);
+		double resultado = resta.restaReales (minuendo, substraendo);
 		// Assert - Comprobar 
 		assertEquals(diferencia, resultado,"La resta de 5 a 10 es 5");
 	}
@@ -39,7 +39,7 @@ private Resta resta;
 		int substraendo = 8;
 		int diferencia = 12;
 		// Act - Ejecutar 
-		int resultado = Resta.restaEnteros (minuendo, substraendo);
+		int resultado = resta.restaEnteros (minuendo, substraendo);
 		// Assert - Comprobar 
 		assertEquals(diferencia, resultado,"La resta de 8 a 20 es 12");
 	}
@@ -52,7 +52,7 @@ private Resta resta;
 		double substraendo2 = 2;
 		double diferencia = 10;
 		// Act - Ejecutar 
-		double resultado = Resta.restaTresReales (minuendo, substraendo, substraendo2);
+		double resultado = resta.restaTresReales (minuendo, substraendo, substraendo2);
 		// Assert - Comprobar 
 		assertEquals(diferencia, resultado,"La resta de 3 y 2 a 15 es 10");
 	}
@@ -60,12 +60,12 @@ private Resta resta;
 	@Test
 	void testRestaTresEnteros() {
 		// Arrange - Preparar
-		int minuendo = 15;
-		int substraendo = 3;
-		int substraendo2 = 2;
-		int diferencia = 10;
+		double minuendo = 15;
+		double substraendo = 3;
+		double substraendo2 = 2;
+		double diferencia = 10;
 		// Act - Ejecutar 
-		int resultado = Resta.restaTresReales (minuendo, substraendo, substraendo2);
+		double resultado = resta.restaTresReales (minuendo, substraendo, substraendo2);
 		// Assert - Comprobar 
 		assertEquals(diferencia, resultado,"La resta de 5 a 10 es 5");
 	}
