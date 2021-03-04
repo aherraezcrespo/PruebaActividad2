@@ -2,9 +2,23 @@ package ed.ted.javadoc;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class TestResta {
+	
+	
+private Resta resta;
+	
+	@BeforeEach
+	public void setUp() {
+		resta = new Resta();
+	}
+	
+	@AfterEach
+	public void tearDown() {
+	}
 
 	@Test
 	void ElResultadoDeRestar5A10DebeSer5() {
