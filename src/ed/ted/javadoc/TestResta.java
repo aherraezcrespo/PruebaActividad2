@@ -70,9 +70,24 @@ private Resta resta;
 		assertEquals(diferencia, resultado,"La resta de 5 a 10 es 5");
 	}
 
+	 
+	
+	
 	@Test
-	void testRestaValorAcumulado() {
-		fail("Not yet implemented");
+	void Restar1AUnNumeroNoEnteroComoPiNoEsPosible() {
+		// Arrange - Preparar
+		double minuendo = 10;
+		double substraendo = Math.PI  ;
+		// Act - Ejecutar
+		int resultado;
+		// Assert - Comprobar 
+		try {
+			resultado = resta.restaEnteros ((int)minuendo,(int)substraendo);
+		}catch(ArithmeticException e) {
+			assertTrue(true);
+		}
+		
+	
 	}
 
 }
