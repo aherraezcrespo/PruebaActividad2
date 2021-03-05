@@ -66,7 +66,7 @@ class TestProducto {
 		double exponente = 4;
 		double esperado = 16;
 		//Act- Ejecutar
-		double resultado = producto.Potencia(2, 4);
+		double resultado = producto.Potencia(base, exponente);
 		//Assert - Comprobar
 		assertEquals (esperado,resultado, "La potencia de 2 elevado a 4 es 16");
 	}
